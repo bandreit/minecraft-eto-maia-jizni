@@ -24,6 +24,8 @@ Simply run the bash script to start/stop it:
 	./start-server.sh
 ```
 
+#### The URL will then be printed to your console for tou to share
+
 This will
 
 ```bash
