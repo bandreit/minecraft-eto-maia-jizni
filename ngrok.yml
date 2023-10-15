@@ -1,0 +1,8 @@
+version: '2'
+authtoken: <>
+log: stdout
+
+tunnels:
+  minecraft-server:
+    proto: tcp
+    addr: mc:25565
