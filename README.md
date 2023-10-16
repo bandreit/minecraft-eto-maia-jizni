@@ -1,6 +1,6 @@
 # Minecraft eto maia jizni
 
-### This is our Minecraft world that me and my firends play in.
+### This is our Minecraft world that me and my friends play in.
 
 #### This repo uses a docker image to run the server and an ngrok tunnel so that the rest of us can connect to it when one is running it locally.
 
