@@ -49,16 +49,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:frozen_ocean": "2023-10-15 18:19:50 +0000",
+      "minecraft:cold_ocean": "2023-10-16 18:12:00 +0000",
       "minecraft:beach": "2023-10-15 17:14:09 +0000",
       "minecraft:forest": "2023-10-15 17:13:22 +0000",
       "minecraft:taiga": "2023-10-15 17:31:07 +0000",
-      "minecraft:windswept_forest": "2023-10-15 17:37:17 +0000",
       "minecraft:river": "2023-10-15 18:17:35 +0000",
       "minecraft:snowy_plains": "2023-10-15 17:31:39 +0000",
+      "minecraft:snowy_taiga": "2023-10-15 17:31:56 +0000",
+      "minecraft:frozen_ocean": "2023-10-15 18:19:50 +0000",
+      "minecraft:frozen_river": "2023-10-16 17:52:25 +0000",
+      "minecraft:windswept_forest": "2023-10-15 17:37:17 +0000",
+      "minecraft:swamp": "2023-10-16 18:14:28 +0000",
       "minecraft:windswept_gravelly_hills": "2023-10-15 18:19:20 +0000",
       "minecraft:windswept_hills": "2023-10-15 18:19:25 +0000",
-      "minecraft:snowy_taiga": "2023-10-15 17:31:56 +0000",
       "minecraft:snowy_beach": "2023-10-15 18:19:40 +0000",
       "minecraft:plains": "2023-10-15 18:17:50 +0000"
     },
@@ -152,8 +155,11 @@
     "criteria": {
       "cooked_porkchop": "2023-10-15 17:24:07 +0000",
       "apple": "2023-10-15 17:15:57 +0000",
+      "cooked_rabbit": "2023-10-16 17:52:44 +0000",
       "cooked_chicken": "2023-10-15 17:52:15 +0000",
       "cooked_mutton": "2023-10-15 17:30:39 +0000",
+      "cooked_cod": "2023-10-16 17:53:48 +0000",
+      "sweet_berries": "2023-10-16 17:58:29 +0000",
       "cooked_beef": "2023-10-15 17:48:06 +0000"
     },
     "done": false
@@ -1415,6 +1421,144 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_peony": "2023-10-15 18:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-10-16 17:51:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-10-16 17:51:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2023-10-16 18:08:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2023-10-16 18:08:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-10-16 18:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-10-16 18:25:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-10-16 18:27:45 +0000"
     },
     "done": true
   },
