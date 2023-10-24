@@ -1,15 +1,81 @@
-[07:07:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14800ms or 296 ticks behind
-[07:07:24] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[07:07:24] [Server thread/INFO]: [Rcon: Stopping the server]
-[07:07:24] [Server thread/INFO]: Stopping server
-[07:07:24] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[07:07:24] [Server thread/INFO]: Saving players
-[07:07:24] [Server thread/INFO]: Saving worlds
-[07:07:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:07:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07:07:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07:07:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:07:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:07:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:07:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:07:24] [Server thread/INFO]: Thread RCON Listener stopped
+[11:36:18] [ServerMain/WARN]: Failed to get system info for Microarchitecture
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "this.cpuVendor" is null
+	at oshi.hardware.CentralProcessor$ProcessorIdentifier.queryMicroarchitecture(CentralProcessor.java:825) ~[oshi-core-6.4.5.jar:6.4.5]
+	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.5.jar:6.4.5]
+	at oshi.hardware.CentralProcessor$ProcessorIdentifier.getMicroarchitecture(CentralProcessor.java:816) ~[oshi-core-6.4.5.jar:6.4.5]
+	at ab.a(SourceFile:66) ~[server-1.20.2.jar:?]
+	at ab.a(SourceFile:128) ~[server-1.20.2.jar:?]
+	at ab.c(SourceFile:75) ~[server-1.20.2.jar:?]
+	at ab.a(SourceFile:82) ~[server-1.20.2.jar:?]
+	at ab.a(SourceFile:75) ~[server-1.20.2.jar:?]
+	at ab.c(SourceFile:52) ~[server-1.20.2.jar:?]
+	at ab.a(SourceFile:82) ~[server-1.20.2.jar:?]
+	at ab.<init>(SourceFile:52) ~[server-1.20.2.jar:?]
+	at o.<init>(SourceFile:34) ~[server-1.20.2.jar:?]
+	at o.h(SourceFile:274) ~[server-1.20.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:99) ~[server-1.20.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[11:36:24] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:36:28] [ServerMain/INFO]: Loaded 7 recipes
+[11:36:28] [ServerMain/INFO]: Loaded 1271 advancements
+[11:36:28] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[11:36:28] [Server thread/INFO]: Loading properties
+[11:36:28] [Server thread/INFO]: Default game type: SURVIVAL
+[11:36:28] [Server thread/INFO]: Generating keypair
+[11:36:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:36:28] [Server thread/INFO]: Using epoll channel type
+[11:36:28] [Server thread/INFO]: Preparing level "world"
+[11:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:36:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:36:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:36:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:36:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:36:41] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[11:36:41] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[11:36:42] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[11:36:43] [Worker-Main-1/INFO]: Preparing spawn area: 17%
+[11:36:43] [Worker-Main-3/INFO]: Preparing spawn area: 28%
+[11:36:43] [Worker-Main-3/INFO]: Preparing spawn area: 90%
+[11:36:44] [Server thread/INFO]: Time elapsed: 13186 ms
+[11:36:44] [Server thread/INFO]: Done (15.337s)! For help, type "help"
+[11:36:44] [Server thread/INFO]: Starting remote control listener
+[11:36:44] [Server thread/INFO]: Thread RCON Listener started
+[11:36:44] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[11:37:58] [User Authenticator #1/INFO]: UUID of player preabatran is f65eee8a-ab7e-4156-8488-0944274d7a05
+[11:37:59] [Server thread/INFO]: preabatran[/172.22.0.3:57492] logged in with entity id 43 at (355.09536760091163, 56.0, -2000.699999988079)
+[11:37:59] [Server thread/INFO]: preabatran joined the game
+[11:38:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4285ms or 85 ticks behind
+[11:51:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2084ms or 41 ticks behind
+[11:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
+[11:52:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6612ms or 132 ticks behind
+[11:52:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[11:52:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[11:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
+[11:53:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2114ms or 42 ticks behind
+[12:21:31] [Server thread/INFO]: preabatran has made the advancement [Hot Stuff]
+[12:35:17] [Server thread/INFO]: preabatran has made the advancement [Diamonds!]
+[12:42:45] [Server thread/INFO]: preabatran lost connection: Disconnected
+[12:42:45] [Server thread/INFO]: preabatran left the game
+[12:45:38] [User Authenticator #2/INFO]: UUID of player preabatran is f65eee8a-ab7e-4156-8488-0944274d7a05
+[12:45:38] [Server thread/INFO]: preabatran[/172.22.0.3:57404] logged in with entity id 14952 at (180.46845532159472, 7.0, -2284.906463131575)
+[12:45:38] [Server thread/INFO]: preabatran joined the game
+[12:52:46] [Server thread/INFO]: preabatran lost connection: Disconnected
+[12:52:46] [Server thread/INFO]: preabatran left the game
