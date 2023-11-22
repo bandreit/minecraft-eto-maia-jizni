@@ -1,4 +1,4 @@
-[11:36:18] [ServerMain/WARN]: Failed to get system info for Microarchitecture
+[21:13:13] [ServerMain/WARN]: Failed to get system info for Microarchitecture
 java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "this.cpuVendor" is null
 	at oshi.hardware.CentralProcessor$ProcessorIdentifier.queryMicroarchitecture(CentralProcessor.java:825) ~[oshi-core-6.4.5.jar:6.4.5]
 	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.5.jar:6.4.5]
@@ -16,66 +16,42 @@ java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "th
 	at net.minecraft.server.Main.main(SourceFile:99) ~[server-1.20.2.jar:?]
 	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
 	at java.lang.Thread.run(Unknown Source) ~[?:?]
-[11:36:24] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:36:28] [ServerMain/INFO]: Loaded 7 recipes
-[11:36:28] [ServerMain/INFO]: Loaded 1271 advancements
-[11:36:28] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[11:36:28] [Server thread/INFO]: Loading properties
-[11:36:28] [Server thread/INFO]: Default game type: SURVIVAL
-[11:36:28] [Server thread/INFO]: Generating keypair
-[11:36:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:36:28] [Server thread/INFO]: Using epoll channel type
-[11:36:28] [Server thread/INFO]: Preparing level "world"
-[11:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:36:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:36:41] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[11:36:41] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[11:36:42] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[11:36:43] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[11:36:43] [Worker-Main-3/INFO]: Preparing spawn area: 28%
-[11:36:43] [Worker-Main-3/INFO]: Preparing spawn area: 90%
-[11:36:44] [Server thread/INFO]: Time elapsed: 13186 ms
-[11:36:44] [Server thread/INFO]: Done (15.337s)! For help, type "help"
-[11:36:44] [Server thread/INFO]: Starting remote control listener
-[11:36:44] [Server thread/INFO]: Thread RCON Listener started
-[11:36:44] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[11:37:58] [User Authenticator #1/INFO]: UUID of player preabatran is f65eee8a-ab7e-4156-8488-0944274d7a05
-[11:37:59] [Server thread/INFO]: preabatran[/172.22.0.3:57492] logged in with entity id 43 at (355.09536760091163, 56.0, -2000.699999988079)
-[11:37:59] [Server thread/INFO]: preabatran joined the game
-[11:38:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4285ms or 85 ticks behind
-[11:51:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2084ms or 41 ticks behind
-[11:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[11:52:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6612ms or 132 ticks behind
-[11:52:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[11:52:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
-[11:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
-[11:53:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2114ms or 42 ticks behind
-[12:21:31] [Server thread/INFO]: preabatran has made the advancement [Hot Stuff]
-[12:35:17] [Server thread/INFO]: preabatran has made the advancement [Diamonds!]
-[12:42:45] [Server thread/INFO]: preabatran lost connection: Disconnected
-[12:42:45] [Server thread/INFO]: preabatran left the game
-[12:45:38] [User Authenticator #2/INFO]: UUID of player preabatran is f65eee8a-ab7e-4156-8488-0944274d7a05
-[12:45:38] [Server thread/INFO]: preabatran[/172.22.0.3:57404] logged in with entity id 14952 at (180.46845532159472, 7.0, -2284.906463131575)
-[12:45:38] [Server thread/INFO]: preabatran joined the game
-[12:52:46] [Server thread/INFO]: preabatran lost connection: Disconnected
-[12:52:46] [Server thread/INFO]: preabatran left the game
+[21:13:16] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:13:18] [ServerMain/INFO]: Loaded 7 recipes
+[21:13:18] [ServerMain/INFO]: Loaded 1271 advancements
+[21:13:18] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[21:13:18] [Server thread/INFO]: Loading properties
+[21:13:18] [Server thread/INFO]: Default game type: SURVIVAL
+[21:13:18] [Server thread/INFO]: Generating keypair
+[21:13:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:13:18] [Server thread/INFO]: Using epoll channel type
+[21:13:18] [Server thread/INFO]: Preparing level "world"
+[21:13:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:13:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:13:21] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:13:21] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[21:13:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:13:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:13:22] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[21:13:23] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[21:13:23] [Server thread/INFO]: Time elapsed: 3099 ms
+[21:13:23] [Server thread/INFO]: Done (4.449s)! For help, type "help"
+[21:13:23] [Server thread/INFO]: Starting remote control listener
+[21:13:23] [Server thread/INFO]: Thread RCON Listener started
+[21:13:23] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[21:14:37] [User Authenticator #1/INFO]: UUID of player preabatran is f65eee8a-ab7e-4156-8488-0944274d7a05
+[21:14:38] [Server thread/INFO]: preabatran[/192.168.65.1:29509] logged in with entity id 41 at (1357.7362800064109, 72.0, 145.5309921373129)
+[21:14:38] [Server thread/INFO]: preabatran joined the game
+[21:14:49] [User Authenticator #2/INFO]: UUID of player DavateliOnline is 7e294988-4e4f-41e8-bab1-f126d448dc1d
+[21:14:49] [Server thread/INFO]: DavateliOnline[/172.20.0.3:47902] logged in with entity id 324 at (1286.663897762068, 70.0, 5.942199047670176)
+[21:14:49] [Server thread/INFO]: DavateliOnline joined the game
+[21:18:01] [Server thread/INFO]: preabatran has made the advancement [Enchanter]
+[21:21:17] [Server thread/INFO]: preabatran has made the advancement [A Seedy Place]
+[21:22:14] [Server thread/INFO]: <preabatran> 1298 102
+[22:04:58] [Server thread/WARN]: Mismatch in destroy block pos: gw{x=2742, y=74, z=69} gw{x=2741, y=74, z=69}
+[22:09:21] [Server thread/INFO]: preabatran has made the advancement [Who is Cutting Onions?]
+[22:16:33] [Server thread/WARN]: Horse (vehicle of preabatran) moved wrongly! 0.3370313884834104
+[22:28:19] [Server thread/INFO]: preabatran lost connection: Disconnected
+[22:28:19] [Server thread/INFO]: preabatran left the game
+[22:28:23] [Server thread/INFO]: DavateliOnline lost connection: Disconnected
+[22:28:23] [Server thread/INFO]: DavateliOnline left the game
